@@ -234,8 +234,16 @@ const forgotPassword = async (req, res) => {
     const proto = forwardedProto ? String(forwardedProto).split(',')[0].trim() : req.protocol;
     const host = req.get('host');
     const originFromReq = host ? `${proto}://${host}` : null;
-    const rawFrontendUrl = process.env.FRONTEND_URL || (process.env.VERCEL && originFromReq) || 'http://localhost:5173';
-    const frontendUrl = rawFrontendUrl.replace(/\/$/, '');
+    const configuredFrontend = process.env.FRONTEND_URL
+      ? process.env.FRONTEND_URL.split(',')[0].trim()
+      : '';
+    const defaultFrontendUrl =
+      process.env.VERCEL && originFromReq
+        ? originFromReq
+        : process.env.NODE_ENV === 'production' || process.env.RENDER
+          ? 'https://mini-project-1-z0mo.onrender.com'
+          : 'http://localhost:5173';
+    const frontendUrl = (configuredFrontend || defaultFrontendUrl).replace(/\/+$/, '');
     const resetUrl = `${frontendUrl}/reset-password/${rawToken}`;
 
     // Send email or log link safely

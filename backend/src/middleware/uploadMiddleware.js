@@ -4,9 +4,11 @@ const path = require('path');
 const fs = require('fs');
 
 const isServerless = Boolean(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
-const uploadDir = isServerless
-  ? path.join(os.tmpdir(), 'civicconnect-uploads')
-  : path.join(__dirname, '../../uploads');
+const uploadDir = process.env.UPLOAD_DIR
+  ? path.resolve(process.env.UPLOAD_DIR)
+  : isServerless
+    ? path.join(os.tmpdir(), 'civicconnect-uploads')
+    : path.join(__dirname, '../../uploads');
 if (!fs.existsSync(uploadDir)) {
   fs.mkdirSync(uploadDir, { recursive: true });
 }

@@ -1,10 +1,20 @@
 import axios from 'axios';
 
-// Production (Render): frontend and backend share one URL, so use relative /api.
+// Production split hosting: set VITE_API_BASE_URL to your backend URL (e.g. https://<backend>.onrender.com/api).
+// Single-origin production: falls back to relative /api.
 // Local dev: Vite runs on its own port, so call the backend on port 5000.
-// VITE_API_BASE_URL still overrides both if you set it.
+const normalizeApiBaseUrl = (rawUrl) => {
+  const trimmed = rawUrl.trim().replace(/\/+$/, '');
+  if (!trimmed) return '';
+  return trimmed.endsWith('/api') ? trimmed : `${trimmed}/api`;
+};
+
+const envBaseUrl = import.meta.env.VITE_API_BASE_URL
+  ? normalizeApiBaseUrl(import.meta.env.VITE_API_BASE_URL)
+  : '';
+
 const baseURL =
-  import.meta.env.VITE_API_BASE_URL ||
+  envBaseUrl ||
   (import.meta.env.PROD ? '/api' : 'http://localhost:5000/api');
 
 const apiOrigin = baseURL.replace(/\/api\/?$/, '');

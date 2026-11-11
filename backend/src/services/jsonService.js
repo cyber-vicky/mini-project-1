@@ -6,19 +6,21 @@ const isServerless = Boolean(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTI
 const BUNDLED_DATA_DIR = fs.existsSync(path.join(__dirname, '../../../data'))
   ? path.join(__dirname, '../../../data')
   : path.join(process.cwd(), 'data');
-const DATA_DIR = isServerless
-  ? path.join(os.tmpdir(), 'civicconnect-data')
-  : path.join(__dirname, '../../../data');
+const DATA_DIR = process.env.DATA_DIR
+  ? path.resolve(process.env.DATA_DIR)
+  : isServerless
+    ? path.join(os.tmpdir(), 'civicconnect-data')
+    : path.join(__dirname, '../../../data');
 
 const getFilePath = (filename) => path.join(DATA_DIR, `${filename}.json`);
 
-let seededServerlessData = false;
+let seededExternalDataDir = false;
 
 const ensureDirExists = () => {
   if (!fs.existsSync(DATA_DIR)) {
     fs.mkdirSync(DATA_DIR, { recursive: true });
   }
-  if (isServerless && !seededServerlessData) {
+  if (!seededExternalDataDir && path.resolve(DATA_DIR) !== path.resolve(BUNDLED_DATA_DIR)) {
     if (fs.existsSync(BUNDLED_DATA_DIR)) {
       for (const entry of fs.readdirSync(BUNDLED_DATA_DIR)) {
         if (!entry.endsWith('.json')) continue;
@@ -29,7 +31,7 @@ const ensureDirExists = () => {
         }
       }
     }
-    seededServerlessData = true;
+    seededExternalDataDir = true;
   }
 };
 
