@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import api from '../services/api';
+import api, { resolveMediaUrl } from '../services/api';
 import MunicipalSidebar from '../components/MunicipalSidebar';
 import MunicipalTopNav from '../components/MunicipalTopNav';
 import { AuthContext } from '../context/AuthContext';
@@ -351,7 +351,7 @@ const MunicipalIssueDetails = () => {
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                     {issue.media.map((p, idx) => (
                       <div key={idx} className="rounded-xl overflow-hidden border border-[#E2E4E7] bg-black aspect-video">
-                        <img src={`http://localhost:5000${p}`} alt="Citizen evidence" className="w-full h-full object-cover" />
+                        <img src={resolveMediaUrl(p)} alt="Citizen evidence" className="w-full h-full object-cover" />
                       </div>
                     ))}
                   </div>
@@ -367,7 +367,7 @@ const MunicipalIssueDetails = () => {
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                     {issue.resolutionProof.map((p, idx) => (
                       <div key={idx} className="rounded-xl overflow-hidden border border-emerald-300 bg-black aspect-video">
-                        <img src={`http://localhost:5000${p}`} alt="Worker resolution proof" className="w-full h-full object-cover" />
+                        <img src={resolveMediaUrl(p)} alt="Worker resolution proof" className="w-full h-full object-cover" />
                       </div>
                     ))}
                   </div>

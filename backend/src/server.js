@@ -3,6 +3,8 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const morgan = require('morgan');
 const path = require('path');
+const fs = require('fs');
+const os = require('os');
 
 dotenv.config();
 
@@ -14,8 +16,19 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan('dev'));
 
+// Health check (used by Render)
+app.get('/healthz', (req, res) => res.status(200).send('ok'));
+
+const isServerless = Boolean(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
+const uploadDir = isServerless
+  ? path.join(os.tmpdir(), 'civicconnect-uploads')
+  : path.join(__dirname, '../uploads');
+
 // Static folder for uploads
-app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
+app.use('/uploads', express.static(uploadDir));
+if (isServerless) {
+  app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
+}
 
 // Routes
 const authRoutes = require('./routes/authRoutes');
@@ -30,6 +43,21 @@ app.use('/api/notifications', notificationRoutes);
 app.use('/api/analytics', analyticsRoutes);
 app.use('/api/departments', departmentsRoutes);
 
+// Serve the built React frontend (only if it has been built).
+// On localhost with `npm run dev`, Vite serves the frontend, so this is skipped.
+const frontendDist = path.join(__dirname, '../../frontend/dist');
+if (fs.existsSync(path.join(frontendDist, 'index.html'))) {
+  app.use(express.static(frontendDist));
+
+  // SPA fallback so React Router URLs work on refresh
+  app.use((req, res, next) => {
+    if (req.method !== 'GET' || req.path.startsWith('/api') || req.path.startsWith('/uploads')) {
+      return next();
+    }
+    res.sendFile(path.join(frontendDist, 'index.html'));
+  });
+}
+
 // Error Handler
 app.use((err, req, res, next) => {
   console.error(err.stack);
@@ -37,6 +65,10 @@ app.use((err, req, res, next) => {
 });
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+if (!process.env.VERCEL && require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+}
+
+module.exports = app;

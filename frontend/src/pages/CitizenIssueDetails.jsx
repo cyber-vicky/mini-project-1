@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import api from '../services/api';
+import api, { resolveMediaUrl } from '../services/api';
 import Navbar from '../components/Navbar';
 import {
   CheckCircle2,
@@ -228,7 +228,7 @@ const CitizenIssueDetails = () => {
                 {issue.media.map((path, idx) => (
                   <div key={idx} className="rounded-xl overflow-hidden border border-[#E2E4E7] bg-black aspect-video">
                     <img
-                      src={`http://localhost:5000${path}`}
+                      src={resolveMediaUrl(path)}
                       alt="Citizen submission photo"
                       className="w-full h-full object-cover"
                     />
@@ -252,7 +252,7 @@ const CitizenIssueDetails = () => {
                 {issue.resolutionProof.map((path, idx) => (
                   <div key={idx} className="rounded-xl overflow-hidden border border-emerald-300 bg-black aspect-video">
                     <img
-                      src={`http://localhost:5000${path}`}
+                      src={resolveMediaUrl(path)}
                       alt="Field resolution proof"
                       className="w-full h-full object-cover"
                     />

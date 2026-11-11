@@ -1,5 +1,5 @@
 const jsonService = require('../services/jsonService');
-const { v4: uuidv4 } = require('uuid');
+const { randomUUID: uuidv4 } = require('crypto');
 const classificationService = require('../services/classificationService');
 const priorityService = require('../services/priorityService');
 const duplicateService = require('../services/duplicateService');

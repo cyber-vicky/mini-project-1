@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const jsonService = require('../services/jsonService');
 const { isEmailConfigured, sendPasswordResetEmail } = require('../services/emailService');
-const { v4: uuidv4 } = require('uuid');
+const { randomUUID: uuidv4 } = require('crypto');
 
 const registerCitizen = async (req, res) => {
   try {
@@ -230,7 +230,12 @@ const forgotPassword = async (req, res) => {
     jsonService.writeData('password_resets', updatedResets);
 
     // Build reset URL
-    const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
+    const forwardedProto = req.headers['x-forwarded-proto'];
+    const proto = forwardedProto ? String(forwardedProto).split(',')[0].trim() : req.protocol;
+    const host = req.get('host');
+    const originFromReq = host ? `${proto}://${host}` : null;
+    const rawFrontendUrl = process.env.FRONTEND_URL || (process.env.VERCEL && originFromReq) || 'http://localhost:5173';
+    const frontendUrl = rawFrontendUrl.replace(/\/$/, '');
     const resetUrl = `${frontendUrl}/reset-password/${rawToken}`;
 
     // Send email or log link safely
