@@ -1,0 +1,19 @@
+{
+  "name": "civicconnect",
+  "version": "1.0.0",
+  "description": "Smart Civic Issue Reporting and Municipal Management Platform",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "seed": "cd backend && npm run seed",
+    "test": "cd backend && npm run test"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "ev": "^0.0.7",
+    "uuid": "^14.0.2"
+  }
+}

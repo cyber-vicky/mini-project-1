@@ -1,0 +1,42 @@
+[
+  {
+    "id": "5a774c4f-5b3a-4f2c-8860-4cf9fb6fed64",
+    "issueId": "CC-DEMO-1009",
+    "citizenId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "result": false,
+    "remarks": "Patch disintegrated in first shower. Loose stones dangerous for motorists.",
+    "createdAt": "2026-10-25T16:04:56.144Z"
+  },
+  {
+    "id": "7c463b08-7d59-49c8-a97b-04d019766d91",
+    "issueId": "CC-DEMO-1010",
+    "citizenId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "result": true,
+    "remarks": "Work confirmed satisfactory by citizen",
+    "createdAt": "2026-10-25T16:04:56.157Z"
+  },
+  {
+    "id": "211bce07-589f-4ab3-a8c0-869d52698dd3",
+    "issueId": "CC-DEMO-1011",
+    "citizenId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "result": true,
+    "remarks": "Confirmed completed and closed",
+    "createdAt": "2026-10-25T16:04:56.170Z"
+  },
+  {
+    "id": "b1a39b44-2373-4a40-81d8-ade07d54d47e",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "citizenId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "result": false,
+    "remarks": "Surface is still uneven and bitumen is loose.",
+    "createdAt": "2026-10-25T16:05:14.104Z"
+  },
+  {
+    "id": "988ebf44-eea9-426b-be76-588e5891abad",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "citizenId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "result": true,
+    "remarks": "Confirmed fully fixed. Thank you!",
+    "createdAt": "2026-10-25T16:05:14.129Z"
+  }
+]

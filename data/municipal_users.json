@@ -1,0 +1,32 @@
+[
+  {
+    "id": "c57ef5c2-4f37-404a-9ff6-c8922bd7a0de",
+    "employeeId": "ADMIN001",
+    "name": "Admin User",
+    "email": "admin@municipal.gov",
+    "passwordHash": "$2b$10$CuYNk8mFEsbaJxqNaiXuC.vzlTrlJuuKDdXYCZeR8YW4Bikg8LDei",
+    "role": "ADMIN",
+    "departmentId": null,
+    "createdAt": "2026-10-25T16:04:55.993Z"
+  },
+  {
+    "id": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "employeeId": "OFFICER001",
+    "name": "Officer User",
+    "email": "officer@municipal.gov",
+    "passwordHash": "$2b$10$5n.sfm.4xB4AwDHAcQga7uIkxFXgxlJ.rTDXzbTcOGHHGubkML9le",
+    "role": "OFFICER",
+    "departmentId": "dept_1",
+    "createdAt": "2026-10-25T16:04:56.045Z"
+  },
+  {
+    "id": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "employeeId": "WORKER001",
+    "name": "Worker User",
+    "email": "worker@municipal.gov",
+    "passwordHash": "$2b$10$kcKLKTxChkXRJyxcbdnyveO6eeFISiihjFeU1cQa6dEkNEpzsVEzq",
+    "role": "WORKER",
+    "departmentId": "dept_1",
+    "createdAt": "2026-10-25T16:04:56.095Z"
+  }
+]

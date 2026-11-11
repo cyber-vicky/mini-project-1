@@ -1,0 +1,47 @@
+[
+  {
+    "id": "dept_1",
+    "name": "Public Works / Roads",
+    "description": "Handles potholes and road damage"
+  },
+  {
+    "id": "dept_2",
+    "name": "Sanitation / Solid Waste",
+    "description": "Handles garbage and waste"
+  },
+  {
+    "id": "dept_3",
+    "name": "Electrical / Streetlights",
+    "description": "Handles streetlights"
+  },
+  {
+    "id": "dept_4",
+    "name": "Water Supply",
+    "description": "Handles water pipes and leakages"
+  },
+  {
+    "id": "dept_5",
+    "name": "Drainage / Sewerage",
+    "description": "Handles drainage and sewage"
+  },
+  {
+    "id": "dept_6",
+    "name": "Traffic",
+    "description": "Handles traffic signals"
+  },
+  {
+    "id": "dept_7",
+    "name": "Parks / Horticulture",
+    "description": "Handles public parks and fallen trees"
+  },
+  {
+    "id": "dept_8",
+    "name": "Animal Control",
+    "description": "Handles stray animals"
+  },
+  {
+    "id": "dept_9",
+    "name": "Municipal Control Room",
+    "description": "General control room"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "3f7afba7-9bdb-4e90-a9d4-208c9da43ec9",
+    "issueId": "CC-DEMO-1002",
+    "departmentId": "dept_3",
+    "officerId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "workerId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "assignedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-22T20:04:56.100Z"
+  },
+  {
+    "id": "d3ec9ebf-8a0c-4b6e-b668-de91529156f4",
+    "issueId": "CC-DEMO-1003",
+    "departmentId": "dept_4",
+    "officerId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "workerId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "assignedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-21T08:04:56.105Z"
+  },
+  {
+    "id": "853e24c8-cc1e-4999-8c7a-cc2787b0e643",
+    "issueId": "CC-DEMO-1004",
+    "departmentId": "dept_5",
+    "officerId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "workerId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "assignedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-19T20:04:56.111Z"
+  },
+  {
+    "id": "3e51f5fa-d02f-434d-990a-647ae1f26f8b",
+    "issueId": "CC-DEMO-1008",
+    "departmentId": "dept_1",
+    "officerId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "workerId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "assignedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-13T20:04:56.125Z"
+  },
+  {
+    "id": "a701b242-9dc7-4674-b457-60ba20778dca",
+    "issueId": "CC-DEMO-1009",
+    "departmentId": "dept_1",
+    "officerId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "workerId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "assignedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-12T08:04:56.133Z"
+  },
+  {
+    "id": "80d79ec2-9ec9-43cc-b7e2-75ebbd0289ca",
+    "issueId": "CC-DEMO-1010",
+    "departmentId": "dept_1",
+    "officerId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "workerId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "assignedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-10T20:04:56.147Z"
+  },
+  {
+    "id": "f1b66511-4c88-4048-9d0d-2a200d4b8c4d",
+    "issueId": "CC-DEMO-1011",
+    "departmentId": "dept_1",
+    "officerId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "workerId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "assignedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-09T08:04:56.160Z"
+  },
+  {
+    "id": "b5219763-15d5-402b-a89f-429903b5b47f",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "departmentId": "dept_1",
+    "officerId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "workerId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "assignedAt": "2026-10-25T16:05:14.072Z",
+    "assignedBy": "c57ef5c2-4f37-404a-9ff6-c8922bd7a0de"
+  }
+]

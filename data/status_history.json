@@ -1,0 +1,416 @@
+[
+  {
+    "id": "147fd888-0786-4e8a-972c-042f54721d26",
+    "issueId": "CC-DEMO-1000",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-25T16:04:56.097Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "b5bd3999-a36c-4108-a421-0935d73e206b",
+    "issueId": "CC-DEMO-1001",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-24T04:04:56.098Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "9c35b7a1-2ef4-4ab4-9068-f23f6dc2ab94",
+    "issueId": "CC-DEMO-1001",
+    "oldStatus": "SUBMITTED",
+    "newStatus": "ACKNOWLEDGED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-24T06:04:56.098Z",
+    "remarks": "Acknowledged and validated by department officer"
+  },
+  {
+    "id": "f298922a-bb9b-43e3-bdff-0ecca3cb09bb",
+    "issueId": "CC-DEMO-1002",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-22T16:04:56.100Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "d5389cdd-9afe-44bf-a95a-560967a8fa38",
+    "issueId": "CC-DEMO-1002",
+    "oldStatus": "SUBMITTED",
+    "newStatus": "ACKNOWLEDGED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-22T18:04:56.100Z",
+    "remarks": "Acknowledged and validated by department officer"
+  },
+  {
+    "id": "da1a6379-5ae2-4c8b-ab4a-457872f4cfca",
+    "issueId": "CC-DEMO-1002",
+    "oldStatus": "ACKNOWLEDGED",
+    "newStatus": "ASSIGNED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-22T20:04:56.100Z",
+    "remarks": "Assigned to field worker"
+  },
+  {
+    "id": "f595bcc9-ba93-485c-9977-64d3268ebfdc",
+    "issueId": "CC-DEMO-1003",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-21T04:04:56.105Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "a5654db0-617d-47a8-bb02-73b61d04db7d",
+    "issueId": "CC-DEMO-1003",
+    "oldStatus": "SUBMITTED",
+    "newStatus": "ACKNOWLEDGED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-21T06:04:56.105Z",
+    "remarks": "Acknowledged and validated by department officer"
+  },
+  {
+    "id": "515176c0-7c52-4207-bcae-e2947863bc01",
+    "issueId": "CC-DEMO-1003",
+    "oldStatus": "ACKNOWLEDGED",
+    "newStatus": "ASSIGNED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-21T08:04:56.105Z",
+    "remarks": "Assigned to field worker"
+  },
+  {
+    "id": "3c1829a1-79be-46ff-ac08-08b884c7d9e1",
+    "issueId": "CC-DEMO-1003",
+    "oldStatus": "ASSIGNED",
+    "newStatus": "IN_PROGRESS",
+    "changedBy": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "timestamp": "2026-10-21T12:04:56.105Z",
+    "remarks": "Field work commenced on-site"
+  },
+  {
+    "id": "9b5caf76-3d9d-4ccf-96e2-587308e5a5fe",
+    "issueId": "CC-DEMO-1004",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-19T16:04:56.111Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "7a832d6a-eb23-40f3-a432-461e933b954f",
+    "issueId": "CC-DEMO-1004",
+    "oldStatus": "SUBMITTED",
+    "newStatus": "ACKNOWLEDGED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-19T18:04:56.111Z",
+    "remarks": "Acknowledged and validated by department officer"
+  },
+  {
+    "id": "32225d52-32e1-445e-b746-0883ab0cb27e",
+    "issueId": "CC-DEMO-1004",
+    "oldStatus": "ACKNOWLEDGED",
+    "newStatus": "ASSIGNED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-19T20:04:56.111Z",
+    "remarks": "Assigned to field worker"
+  },
+  {
+    "id": "a4baec87-f686-4a24-9ac3-e6494869286b",
+    "issueId": "CC-DEMO-1005",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-18T04:04:56.116Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "9af34636-8d42-4222-b992-675105443249",
+    "issueId": "CC-DEMO-1006",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-16T16:04:56.118Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "ca943e33-02e5-45c8-bebb-e95ef5d3000c",
+    "issueId": "CC-DEMO-1006",
+    "oldStatus": "SUBMITTED",
+    "newStatus": "ACKNOWLEDGED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-16T18:04:56.118Z",
+    "remarks": "Acknowledged and validated by department officer"
+  },
+  {
+    "id": "5a420f1c-72b0-47ee-818c-12e54eb54378",
+    "issueId": "CC-DEMO-1007",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-15T04:04:56.122Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "9f5aed6f-f119-43b3-88f0-000deda6bc41",
+    "issueId": "CC-DEMO-1008",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-13T16:04:56.125Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "e98cb0d4-2c58-48f4-af51-0d295b18eaaf",
+    "issueId": "CC-DEMO-1008",
+    "oldStatus": "SUBMITTED",
+    "newStatus": "ACKNOWLEDGED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-13T18:04:56.125Z",
+    "remarks": "Acknowledged and validated by department officer"
+  },
+  {
+    "id": "07105fc8-ffc8-4db0-84bd-f98b2ec2a127",
+    "issueId": "CC-DEMO-1008",
+    "oldStatus": "ACKNOWLEDGED",
+    "newStatus": "ASSIGNED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-13T20:04:56.125Z",
+    "remarks": "Assigned to field worker"
+  },
+  {
+    "id": "e29760aa-30fa-4b2a-978b-f0faeafa9820",
+    "issueId": "CC-DEMO-1008",
+    "oldStatus": "ASSIGNED",
+    "newStatus": "IN_PROGRESS",
+    "changedBy": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "timestamp": "2026-10-14T00:04:56.125Z",
+    "remarks": "Field work commenced on-site"
+  },
+  {
+    "id": "d4f2d466-c0e0-4c17-b610-68c1abb6fe5a",
+    "issueId": "CC-DEMO-1008",
+    "oldStatus": "IN_PROGRESS",
+    "newStatus": "RESOLVED",
+    "changedBy": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "timestamp": "2026-10-25T04:04:56.125Z",
+    "remarks": "Subsidence filled with base gravel, cold bituminous mix compacted with roller."
+  },
+  {
+    "id": "c4e77499-69d7-47d5-a4cf-46e5c1f6c073",
+    "issueId": "CC-DEMO-1009",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-12T04:04:56.133Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "d2a3b9e1-90b6-4034-b2fa-3bbf8be2e634",
+    "issueId": "CC-DEMO-1009",
+    "oldStatus": "SUBMITTED",
+    "newStatus": "ACKNOWLEDGED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-12T06:04:56.133Z",
+    "remarks": "Acknowledged and validated by department officer"
+  },
+  {
+    "id": "71dff163-0f0e-4883-8324-d001c5877dd6",
+    "issueId": "CC-DEMO-1009",
+    "oldStatus": "ACKNOWLEDGED",
+    "newStatus": "ASSIGNED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-12T08:04:56.133Z",
+    "remarks": "Assigned to field worker"
+  },
+  {
+    "id": "656ba4c8-4d83-4692-ba84-f7dfe2bac99c",
+    "issueId": "CC-DEMO-1009",
+    "oldStatus": "RESOLVED",
+    "newStatus": "REOPENED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-25T16:04:56.145Z",
+    "remarks": "Reopened: Patch disintegrated in first shower. Loose stones dangerous for motorists."
+  },
+  {
+    "id": "8e49d504-a8ec-48ef-8277-4dfed7f3b271",
+    "issueId": "CC-DEMO-1010",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-10T16:04:56.147Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "8a90b86d-63e6-4f1a-a19c-ead271a82c02",
+    "issueId": "CC-DEMO-1010",
+    "oldStatus": "SUBMITTED",
+    "newStatus": "ACKNOWLEDGED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-10T18:04:56.147Z",
+    "remarks": "Acknowledged and validated by department officer"
+  },
+  {
+    "id": "e57b3011-5d43-4be9-aa9c-d6c6e96aa3e8",
+    "issueId": "CC-DEMO-1010",
+    "oldStatus": "ACKNOWLEDGED",
+    "newStatus": "ASSIGNED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-10T20:04:56.147Z",
+    "remarks": "Assigned to field worker"
+  },
+  {
+    "id": "6b53f50b-2142-49cc-b050-37b6f482d9d4",
+    "issueId": "CC-DEMO-1010",
+    "oldStatus": "ASSIGNED",
+    "newStatus": "IN_PROGRESS",
+    "changedBy": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "timestamp": "2026-10-11T00:04:56.147Z",
+    "remarks": "Field work commenced on-site"
+  },
+  {
+    "id": "7c1cc711-f7fa-4784-ab31-f656867e7f90",
+    "issueId": "CC-DEMO-1010",
+    "oldStatus": "IN_PROGRESS",
+    "newStatus": "RESOLVED",
+    "changedBy": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "timestamp": "2026-10-25T04:04:56.147Z",
+    "remarks": "Precast kerb re-anchored with concrete mortar."
+  },
+  {
+    "id": "14ac16e7-d5d4-4061-a2e0-879d49428e3e",
+    "issueId": "CC-DEMO-1010",
+    "oldStatus": "RESOLVED",
+    "newStatus": "VERIFIED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-25T16:04:56.159Z",
+    "remarks": "Citizen confirmed resolution"
+  },
+  {
+    "id": "84c597bc-2019-478a-b419-9e592b16b687",
+    "issueId": "CC-DEMO-1011",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-09T04:04:56.160Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "ac95442f-064d-440d-9e9a-9f600246460f",
+    "issueId": "CC-DEMO-1011",
+    "oldStatus": "SUBMITTED",
+    "newStatus": "ACKNOWLEDGED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-09T06:04:56.160Z",
+    "remarks": "Acknowledged and validated by department officer"
+  },
+  {
+    "id": "3345ae46-093a-43ee-9ba5-411f56691425",
+    "issueId": "CC-DEMO-1011",
+    "oldStatus": "ACKNOWLEDGED",
+    "newStatus": "ASSIGNED",
+    "changedBy": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "timestamp": "2026-10-09T08:04:56.160Z",
+    "remarks": "Assigned to field worker"
+  },
+  {
+    "id": "d2383815-f708-4a34-832e-5d0c7b2c39dd",
+    "issueId": "CC-DEMO-1011",
+    "oldStatus": "ASSIGNED",
+    "newStatus": "IN_PROGRESS",
+    "changedBy": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "timestamp": "2026-10-09T12:04:56.160Z",
+    "remarks": "Field work commenced on-site"
+  },
+  {
+    "id": "761ff267-4766-44c9-9df0-a43c94da7b7b",
+    "issueId": "CC-DEMO-1011",
+    "oldStatus": "IN_PROGRESS",
+    "newStatus": "RESOLVED",
+    "changedBy": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "timestamp": "2026-10-25T04:04:56.160Z",
+    "remarks": "Slab replaced with new interlocking paver and grouted."
+  },
+  {
+    "id": "f3ed5be9-212a-4dde-a5d2-ec69b2d1ee55",
+    "issueId": "CC-DEMO-1011",
+    "oldStatus": "RESOLVED",
+    "newStatus": "CLOSED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-25T16:04:56.173Z",
+    "remarks": "Closed following citizen verification"
+  },
+  {
+    "id": "9a34bb20-154c-4069-afee-087e230b5248",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "oldStatus": null,
+    "newStatus": "SUBMITTED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-25T16:05:14.057Z",
+    "remarks": "Issue submitted by citizen"
+  },
+  {
+    "id": "e9bbd604-91f1-479d-8648-7162debbca35",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "oldStatus": "SUBMITTED",
+    "newStatus": "ASSIGNED",
+    "changedBy": "c57ef5c2-4f37-404a-9ff6-c8922bd7a0de",
+    "timestamp": "2026-10-25T16:05:14.073Z",
+    "remarks": "Assigned by ADMIN (c57ef5c2-4f37-404a-9ff6-c8922bd7a0de)"
+  },
+  {
+    "id": "ef818b10-05eb-4093-bf02-68f4ce572ace",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "oldStatus": "ASSIGNED",
+    "newStatus": "IN_PROGRESS",
+    "changedBy": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "timestamp": "2026-10-25T16:05:14.090Z",
+    "remarks": "Worker on site, excavation begun."
+  },
+  {
+    "id": "273db9d7-3338-426c-8b83-12619249506a",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "oldStatus": "IN_PROGRESS",
+    "newStatus": "RESOLVED",
+    "changedBy": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "timestamp": "2026-10-25T16:05:14.096Z",
+    "remarks": "Asphalt laid and leveled. Pothole completely repaired."
+  },
+  {
+    "id": "33fa6e66-7229-47df-9cc1-48e598eec460",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "oldStatus": "RESOLVED",
+    "newStatus": "REOPENED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-25T16:05:14.106Z",
+    "remarks": "Surface is still uneven and bitumen is loose."
+  },
+  {
+    "id": "c566b6f1-6934-4b2b-a7ca-ae971c820c4a",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "oldStatus": "REOPENED",
+    "newStatus": "IN_PROGRESS",
+    "changedBy": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "timestamp": "2026-10-25T16:05:14.117Z",
+    "remarks": "Worker returned for final compaction."
+  },
+  {
+    "id": "0ff18a2d-4439-43aa-9707-980659402a05",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "oldStatus": "IN_PROGRESS",
+    "newStatus": "RESOLVED",
+    "changedBy": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "timestamp": "2026-10-25T16:05:14.123Z",
+    "remarks": "Compacted with heavy roller. Smooth surface verified."
+  },
+  {
+    "id": "46136ee9-3435-4c01-85e4-3e35bd8c26ff",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "oldStatus": "RESOLVED",
+    "newStatus": "CLOSED",
+    "changedBy": "480c294e-a51e-44df-a175-d4175b53c265",
+    "timestamp": "2026-10-25T16:05:14.131Z",
+    "remarks": "Confirmed fully fixed. Thank you!"
+  }
+]

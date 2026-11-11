@@ -1,0 +1,278 @@
+[
+  {
+    "id": "8cb4a518-1a67-4184-a26f-540cd71be9ec",
+    "userId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "issueId": "CC-DEMO-1008",
+    "message": "Your complaint \"Asphalt Subsidence Repaired\" has been marked RESOLVED. Please inspect and verify.",
+    "type": "RESOLUTION_READY",
+    "read": false,
+    "createdAt": "2026-10-25T12:04:56.174Z"
+  },
+  {
+    "id": "64135e8d-5890-4624-bffd-3df7d5a1e5ea",
+    "userId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "issueId": "CC-DEMO-1003",
+    "message": "Work has begun on your reported issue: \"Major Water Pipe Leakage\".",
+    "type": "STATUS_UPDATE",
+    "read": true,
+    "createdAt": "2026-10-24T20:04:56.175Z"
+  },
+  {
+    "id": "8eb94df8-46a9-4fcb-9a2b-bb2857737b99",
+    "userId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "issueId": "CC-DEMO-1000",
+    "message": "Your complaint \"Massive Pothole on 5th Cross\" was received and routed to Public Works / Roads.",
+    "type": "STATUS_UPDATE",
+    "read": true,
+    "createdAt": "2026-10-24T10:04:56.176Z"
+  },
+  {
+    "id": "e792b6c3-12d2-4a7d-b03a-49484c259978",
+    "userId": "c57ef5c2-4f37-404a-9ff6-c8922bd7a0de",
+    "issueId": "CC-DEMO-1000",
+    "message": "CRITICAL priority complaint submitted: \"Massive Pothole on 5th Cross\"",
+    "type": "CRITICAL_COMPLAINT",
+    "read": true,
+    "createdAt": "2026-10-25T14:04:56.177Z"
+  },
+  {
+    "id": "95823145-7949-4aa2-9d4d-2b9f71d766fe",
+    "userId": "c57ef5c2-4f37-404a-9ff6-c8922bd7a0de",
+    "issueId": "CC-DEMO-1009",
+    "message": "Citizen has REOPENED complaint \"Patchwork Quality Unsatisfactory\". Reason: Patch disintegrated in first shower.",
+    "type": "REOPENED",
+    "read": true,
+    "createdAt": "2026-10-25T10:04:56.179Z"
+  },
+  {
+    "id": "682eab8d-2722-4bd1-b942-27d13b1b6471",
+    "userId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "issueId": "CC-DEMO-1002",
+    "message": "New complaint routed to your department: \"Broken Streetlight on Elm St\"",
+    "type": "DEPARTMENT_ASSIGNED",
+    "read": false,
+    "createdAt": "2026-10-25T06:04:56.181Z"
+  },
+  {
+    "id": "adb7761c-0b56-4bd7-8b78-45a1a7612f4e",
+    "userId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "issueId": "CC-DEMO-1002",
+    "message": "You have been assigned to task: \"Broken Streetlight on Elm St\"",
+    "type": "TASK_ASSIGNED",
+    "read": false,
+    "createdAt": "2026-10-25T08:04:56.182Z"
+  },
+  {
+    "id": "60587bc8-3a8b-408c-826c-37fdd33a185d",
+    "userId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "issueId": "CC-DEMO-1003",
+    "message": "You have been assigned to task: \"Major Water Pipe Leakage\"",
+    "type": "TASK_ASSIGNED",
+    "read": true,
+    "createdAt": "2026-10-24T16:04:56.183Z"
+  },
+  {
+    "id": "03d8f0da-734b-47cd-93ab-44a8d87eb9b3",
+    "userId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Your complaint has been submitted and is being analyzed.",
+    "type": "STATUS_UPDATE",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.059Z"
+  },
+  {
+    "id": "a64629fe-abf2-4548-8090-e54d1e07e8f9",
+    "userId": "c57ef5c2-4f37-404a-9ff6-c8922bd7a0de",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "[HIGH PRIORITY] New high-priority complaint submitted: \"Severe road pothole danger\".",
+    "type": "HIGH_PRIORITY_COMPLAINT",
+    "read": true,
+    "createdAt": "2026-10-25T16:05:14.060Z"
+  },
+  {
+    "id": "91e41b30-4d7d-4635-8771-c1632bc4343f",
+    "userId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "[HIGH PRIORITY] New high-priority complaint submitted: \"Severe road pothole danger\".",
+    "type": "HIGH_PRIORITY_COMPLAINT",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.061Z"
+  },
+  {
+    "id": "240adff4-11a7-4013-a824-794d58255749",
+    "userId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Your complaint \"Severe road pothole danger\" has been assigned and is being handled.",
+    "type": "STATUS_UPDATE",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.074Z"
+  },
+  {
+    "id": "d47a102f-bfe3-4f2c-b9fa-3d3bbed943df",
+    "userId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "You have been assigned a new task: \"Severe road pothole danger\". Please review and start work.",
+    "type": "ASSIGNMENT",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.075Z"
+  },
+  {
+    "id": "96b4351e-6a16-471f-bbbe-2167c414d3eb",
+    "userId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Issue \"Severe road pothole danger\" has been assigned to your department for review.",
+    "type": "ASSIGNMENT",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.076Z"
+  },
+  {
+    "id": "8c40f413-337e-4f6d-bf69-a3b370375c80",
+    "userId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Work has started on your complaint \"Severe road pothole danger\".",
+    "type": "STATUS_UPDATE",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.091Z"
+  },
+  {
+    "id": "ae8bf230-ede2-4dc4-87c9-4c710f681f48",
+    "userId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Your complaint \"Severe road pothole danger\" has been marked as RESOLVED. Please inspect and verify the resolution.",
+    "type": "STATUS_UPDATE",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.097Z"
+  },
+  {
+    "id": "be546659-6024-47f0-b135-d67efb35df1d",
+    "userId": "c57ef5c2-4f37-404a-9ff6-c8922bd7a0de",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Complaint \"Severe road pothole danger\" has been marked RESOLVED and is awaiting citizen verification.",
+    "type": "STATUS_UPDATE",
+    "read": true,
+    "createdAt": "2026-10-25T16:05:14.098Z"
+  },
+  {
+    "id": "716f32ff-0364-474f-be26-8fe5795b5d82",
+    "userId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Complaint \"Severe road pothole danger\" has been marked RESOLVED by worker.",
+    "type": "STATUS_UPDATE",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.099Z"
+  },
+  {
+    "id": "1d5af31e-5a80-49fb-9eb1-553214274d74",
+    "userId": "c57ef5c2-4f37-404a-9ff6-c8922bd7a0de",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Citizen has REOPENED complaint \"Severe road pothole danger\". Reason: Surface is still uneven and bitumen is loose..",
+    "type": "REOPENED",
+    "read": true,
+    "createdAt": "2026-10-25T16:05:14.108Z"
+  },
+  {
+    "id": "dbf39528-3fcf-453f-9c4f-c3b9a807c07f",
+    "userId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Citizen has REOPENED complaint \"Severe road pothole danger\". Reason: Surface is still uneven and bitumen is loose..",
+    "type": "REOPENED",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.109Z"
+  },
+  {
+    "id": "314d68c9-e44b-4f7e-9e1b-d2695686cfc7",
+    "userId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Assigned task \"Severe road pothole danger\" has been REOPENED by citizen. Reason: Surface is still uneven and bitumen is loose..",
+    "type": "REOPENED",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.110Z"
+  },
+  {
+    "id": "cecefecc-b936-4112-8038-37839936d5cb",
+    "userId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Work has started on your complaint \"Severe road pothole danger\".",
+    "type": "STATUS_UPDATE",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.118Z"
+  },
+  {
+    "id": "1d5a9753-d46c-4744-9643-99d647cb37cb",
+    "userId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Your complaint \"Severe road pothole danger\" has been marked as RESOLVED. Please inspect and verify the resolution.",
+    "type": "STATUS_UPDATE",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.124Z"
+  },
+  {
+    "id": "e2cbf052-0188-45cf-ad20-272f802a408e",
+    "userId": "c57ef5c2-4f37-404a-9ff6-c8922bd7a0de",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Complaint \"Severe road pothole danger\" has been marked RESOLVED and is awaiting citizen verification.",
+    "type": "STATUS_UPDATE",
+    "read": true,
+    "createdAt": "2026-10-25T16:05:14.125Z"
+  },
+  {
+    "id": "41a47495-1d87-4874-94db-bbf2694b4a0d",
+    "userId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Complaint \"Severe road pothole danger\" has been marked RESOLVED by worker.",
+    "type": "STATUS_UPDATE",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.126Z"
+  },
+  {
+    "id": "2267f4d6-4bfd-463a-b18f-8547e97b8623",
+    "userId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Your complaint \"Severe road pothole danger\" has been successfully verified and marked as CLOSED.",
+    "type": "CLOSED",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.132Z"
+  },
+  {
+    "id": "daeb00cf-b319-4ea0-8f19-11fdc3e88cd3",
+    "userId": "502a81e8-e212-4b81-b792-8e77506a0e5f",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Citizen verified and closed complaint \"Severe road pothole danger\". Great work!",
+    "type": "CLOSED",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.133Z"
+  },
+  {
+    "id": "1d0c1e27-37b4-45e6-92bc-36ab3b292438",
+    "userId": "2093ece2-a710-4ff6-8668-6b31a477e360",
+    "issueId": "3f8c8827-7046-46cf-8ad0-02c41c2bcd2d",
+    "message": "Complaint \"Severe road pothole danger\" has been verified and closed by citizen.",
+    "type": "CLOSED",
+    "read": false,
+    "createdAt": "2026-10-25T16:05:14.134Z"
+  },
+  {
+    "id": "2141529c-ddf4-4a8f-b8d2-8aac89f9c71e",
+    "userId": "test-citizen-1",
+    "message": "Your complaint \"Test Pothole to be deleted\" has been deleted by municipal authority (Department Officer).",
+    "type": "GENERAL",
+    "read": false,
+    "createdAt": "2026-11-10T05:36:34.921Z"
+  },
+  {
+    "id": "d6b634af-4e45-4d72-8a55-95e566e327c5",
+    "userId": "test-citizen-2",
+    "message": "Your complaint \"Water Leakage for Admin delete\" has been deleted by municipal authority (Administrator).",
+    "type": "GENERAL",
+    "read": false,
+    "createdAt": "2026-11-10T05:36:34.953Z"
+  },
+  {
+    "id": "7b74a23d-37fd-4201-ba6a-fb0c5f724c2e",
+    "userId": "480c294e-a51e-44df-a175-d4175b53c265",
+    "message": "Your complaint \"road damage\" has been deleted by municipal authority (Department Officer).",
+    "type": "GENERAL",
+    "read": false,
+    "createdAt": "2026-11-10T05:38:26.530Z"
+  }
+]
